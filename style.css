@@ -1,13 +1,15 @@
 /* Give your page a fun background color */
 
 /* Make the header and footer a different color from the background */
-.Header {
-  color: blue;
+header {
+  color: #A63117;
   text-align: center;
+  background-color: #F2B705;
+  border-radius: 50px;
 }
 /* Align the h1 containing your name in the center of the header*/
 .list{
-  color: green;
+  color: #A63117;
   font-family: fantasy;
 
 }
@@ -15,7 +17,7 @@
 
 /* Put a border around your image */
 .image {
-    border-color: red;
+    border-color: #D95204;
     border-radius: 50px;
     border-width: 20px;
     border-style: groove;
@@ -24,9 +26,13 @@
 
   }
 
-.footer{
+footer{
    text-align: center;
    font-style: italic;
+   background-color: #402B3E;
+   color: white;
+   border-radius: 50px;
+   border: 50px;
 }
 
 /* Change the font-family of your list */
